@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    background-color:#f2f2f2 ;
+    color: #131d26;
+}
+header, footer{
+    background-color: #131d26;
+    color: white;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 46px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header li a{
+    display: block;
+    padding: 10px 18px;
+    color: white;
+    text-decoration: none;
+}
+header li a.selected{
+    background-color: #59331D;
+}
+.hero{
+    height: 400px;
+    background-image: url(https://assets.codepen.io/6306176/gulp-couple-talking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.heroContent{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+.hero h1{
+    margin: 0;
+    width: 300px;
+}
+.imageArticle{
+    max-width: 1400px;
+    padding: 100px 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imageArticle .content{
+    width: 50%;
+}
+.imageArticle img{
+    width: 30%;
+    height: 600px;
+    object-fit: cover;
+}
+a{
+    color: #59331D;
+    text-decoration: none;
+}
+.btnPrimary{
+    display: inline-block;
+    background-color: #131d26;
+    padding: 10px 18px;
+    color: white;
+    text-decoration: none;
+}
+.media img{
+    height: 32px;
+}
